@@ -1,9 +1,7 @@
 function stringChop(str,size) {
    
     let len = str.length;
-    let rest = len%size;    
-    let lp = parseInt(len/size);
-    let nstr =[];
+	let nstr =[];
     let index = 0;
     while(index<len){    
        
