@@ -1,5 +1,5 @@
 function stringChop(str,size) {
-    str = str.toString();
+   
     let len = str.length;
     let rest = len%size;    
     let lp = parseInt(len/size);
